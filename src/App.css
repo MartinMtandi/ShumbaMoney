@@ -1,0 +1,317 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.section{
+  /* position: absolute; */
+  height: 600px;
+  width: 100%;
+}
+
+.section-container, .details, .section, .call-to-action{
+  display: flex;
+}
+
+.red{
+  width: calc(50% - 50px);
+  height: 100%;
+  background-color: #C11B1B;
+  box-sizing: border-box;
+}
+
+.blue{
+  width: calc(50% + 50px);
+  height: 100%;
+  background-color: #06205B;
+  box-sizing: border-box;
+  border-left: 250px solid #C11B1B;
+  border-bottom: 600px solid transparent;
+}
+
+.red img{
+  margin-left: 150px;
+  width: 180px;
+}
+
+.red h1{
+  font-weight: 800;
+  font-size: 3.4em;
+  color: #fff;
+}
+
+.red h1, .red button{
+  margin: 50px 0 20px 150px;
+} 
+
+.red button, .blue .btn-reg{
+  border: 1px solid  #06205B;
+  color: #06205B;
+}
+
+.red button, .blue .btn-reg, .btn-sign-in, .btn-money-wrapper button, .btn-airtime-wrapper button{
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.card-body button{
+  font-weight: 600;
+  background-color: #06205B;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px 15px;
+}
+
+.btn-sign-in{
+  border: 1px solid  #06205B;
+  background-color: #06205B;
+  color: #fff;
+}
+
+.btn-container{
+  text-align: right;
+  margin: 50px 150px 0px 0px;
+}
+
+.left-col{
+  margin: 100px 0 100px 150px;
+}
+
+.left-col h1{
+  color: #06205B;
+  font-weight: 800;
+}
+
+.fa-bolt{
+  padding: 30px 45px;
+  font-size: 60px;
+  background-color: #F7EDF0;
+  border-radius: 50%;
+  color: #C11B1B;
+}
+
+.text-wrapper, .fa-bolt{
+  margin-top: 90px;
+  margin-right: 24px;
+}
+
+.text-wrapper h3{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.text-wrapper h3, .text-wrapper p{
+  color: #06205B;
+}
+
+.text-wrapper p{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn-airtime-wrapper, .btn-money-wrapper{
+  width: 50%;
+}
+
+.btn-airtime-wrapper{
+  text-align: right;
+}
+
+.btn-money-wrapper button{
+  background-color: #C11B1B;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+}
+
+.btn-airtime-wrapper button{
+  background-color: inherit;
+  border: none;
+  color: #06205B;
+}
+
+.call-to-action{
+  border: 3px solid #06205B;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.card-header{
+  background-color: #e3f2fd ;
+}
+
+.form{
+  width: 500px;
+  margin-bottom: 35px;
+}
+
+.btn-send{
+  background-color: #C11B1B;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.form label, .form h3, .transact-txt{
+  color: #06205B;
+  font-size: 18px;
+}
+
+.form span{
+  color: green;
+}
+
+.form label{
+  font-weight: 700;
+}
+
+.form h3{
+  font-weight: 400;
+}
+
+.form-controller{
+  margin-bottom: 42px;
+}
+
+.card-container{
+  position: absolute;
+  right: 150px;
+  top: 250px;
+  border: none;
+}
+
+.accordion, .card-container{
+  box-shadow: 0 0 5px 1px #CCDAD1;
+}
+
+.btn-primary{
+  background-color: #06205B !important;
+  color: #fff !important;
+}
+
+.admin-bg{
+  background-color: #EFF6EE;
+  width: 100%;
+  height: 100vh;
+}
+
+.container{
+  min-width: 1500px;
+  padding-top: 100px;
+}
+
+.search-input{
+  padding: 10px;
+}
+
+.latest{
+  text-align: right;
+  color: #06205B;
+}
+
+.latest span:hover{
+  cursor: pointer;
+}
+
+.val{
+  height: 50px;
+  line-height: 50px;
+}
+
+.transact-txt{
+  font-weight: 600;
+}
+
+.card-header{
+  background-color: #fff;
+}
+
+.face-wrapper img, .user-account-profiles{
+  width: 65px;
+  border-radius: 50%;
+}
+
+.user-account-profiles{
+  margin-right: 24px;
+}
+
+.accounts-header{
+  display: flex;
+}
+
+.active-card{
+  margin-top: 40px;
+}
+
+.account-details{
+  margin-left: 35px;
+}
+.account-details h4, .account-details p{
+  padding: 0;
+  margin: 0;
+}
+
+.account-details h4{
+  color: #06205B;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.account-details .amnt{
+  color: #06205B;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.account-details .date{
+  color: rgb(77, 74, 74);
+  font-size: 12px;
+}
+
+.account-details p span{
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 10px;
+  background-color: #CCDAD1;
+}
+
+.btn-toggler{
+  position: absolute;
+  background-color: #06205B;
+  color: #fff;
+  right: 18px;
+  top: 22px;
+  text-decoration: none;
+}
+
+.btn-toggler:hover{
+  text-decoration: none;
+  color: #06205B;
+  background-color: #fff;
+  border: 1px solid #06205B;
+}
+
+.card-body-accordion{
+  background-color: #06205B;
+  color: #fff;
+  padding: 40px 40px 40px 115px;
+}
+
+.contacts-wrapper{
+  margin-left: 80px;
+}
+
+.fav-contacts{
+  font-size: 20px;
+  font-weight: 600;
+  color: #06205B;
+}
+
+.fav-contacts span{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contacts-wrapper .card{
+  width: 290px;
+}
